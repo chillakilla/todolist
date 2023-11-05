@@ -1,0 +1,46 @@
+.add-form {
+  background-color: #eee;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 30px;
+  margin: 0 auto;
+
+  border-radius: 12px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.add-input {
+  border: none;
+  border-radius: 12px;
+  height: 40px;
+  padding: 0 12px;
+  width: 240px;
+}
+
+.add-button {
+  background-color: teal;
+  width: 140px;
+  height: 40px;
+  font-weight: 700;
+  color: #fff;
+
+  border: none;
+  border-radius: 10px;
+}
+
+.add-button:hover {
+  background-color: #fff;
+  color: teal;
+}
