@@ -1,70 +1,9 @@
-# Getting Started with Create React App
+1. JavaScript+XML(HTML) 을 뜻하는 것으로, JS파일 내에서 HTML과 유사한 코드를 직관적으로 나타낼 수 있으며, 재사용과 유지보수의 효율이 증가한 확장판 언어라고 볼 수 있겠습니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. state, setState, userState Hook
 
-## Available Scripts
+3. 부모 요소에서 자식 요소로 데이터 유형을 내려줄 수 있는 props
 
-In the project directory, you can run:
+4. setTodo(initialState); 부분을 가지고 예를 들면 될 것 같습니다. 필요한 상황에 따라 새로운 개체를 생성해야 할 경우. initialState의 초기 상태를 기반으로 새로운 개체를 생성한 뒤에 그 생성된 새 개체에 수정 사항을 적용합니다. 그러므로 기존의 initialState의 불변성은 유지된다고 이해하고 있습니다.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. onSubmitHandler를 예로 들 수 있을 것 같습니다. 이벤트핸들링에 있어서 굉장히 이점을 느꼈습니다. 밑에서 온클릭 이벤트리스너와 같은 함수를 재작성하는 일이 없어졌습니다.
